@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+
+  "name": "Swanson Quote of the Day",
+  "description": "A fun little extension that gives you a random Ron Swanson quote.",
+  "version": "0.1",
+
+
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "index.html",
+    "default_title": "SQOTD"
+  },
+
+
+
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ]
+
+}
